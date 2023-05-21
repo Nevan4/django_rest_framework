@@ -1,0 +1,10 @@
+Starting django project:
+
+This project will contain backend and client side both in drf folder.
+
+to start project in backend folder using django:
+django-admin.exe startproject cfehome . #name can be different
+
+next create a Python API Client in py_client folder (to analyze results of the coded scripts
+simultaneously from backend and client side)
+
