@@ -8,3 +8,11 @@ django-admin.exe startproject cfehome . #name can be different
 next create a Python API Client in py_client folder (to analyze results of the coded scripts
 simultaneously from backend and client side)
 
+Note #1:
+REST APIs = web based APIs
+
+--- last done  ---
+finished yt video at 21:33
+using "try except" conditional to handle the problem with
+response.json() method to print response in json format.
+--- last done ---
