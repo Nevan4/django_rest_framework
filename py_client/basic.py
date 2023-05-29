@@ -2,9 +2,9 @@ import requests
 
 
 endpoint = "https://httpbin.org/anything"
-endpoint = "http://localhost:8000/" #"http://127.0.0.1:8000/"
+endpoint = "http://localhost:8000/api/" #"http://127.0.0.1:8000/"
 
-get_response = requests.get(endpoint, data={"query": "Hello Dog"}) # API -> Method
+get_response = requests.get(endpoint, json={"query": "Hello Dog"}) # API -> Method
 
 try:
     data = get_response.json()
@@ -12,5 +12,5 @@ try:
 except:
     print("Error from server: " + str(get_response.content))
 
-print(get_response.status_code)
+print("status code: " + str(get_response.status_code))
 

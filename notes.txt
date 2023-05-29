@@ -27,3 +27,19 @@ finished yt at 31:09
 Checked runserver and response
 --- last done ---
 
+------------------------------------------------------------
+29.05.2023
+------------------------------------------------------------
+
+Starting first API:
+
+in terminal in project folder:
+python manage.py startapp <api_name>
+
+! remember to add new app to settings.py in installed apps
+
+In api view created first view with the simple response
+Next - added file in api folder called "urls.py" to simplify the routing
+(all addresses from this api will be located in api catalog)
+
+
