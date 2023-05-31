@@ -43,3 +43,8 @@ Next - added file in api folder called "urls.py" to simplify the routing
 (all addresses from this api will be located in api catalog)
 
 
+--- last done  ---
+finished yt at 47:09
+Checked how params given in get request are echoed in api view
+$    data['params'] = dict(request.GET)
+--- last done ---
