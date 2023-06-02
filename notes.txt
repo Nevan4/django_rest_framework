@@ -48,3 +48,18 @@ finished yt at 47:09
 Checked how params given in get request are echoed in api view
 $    data['params'] = dict(request.GET)
 --- last done ---
+
+------------------------------------------------------------
+31.05.2023
+------------------------------------------------------------
+
+Starting new chapter in tutorial - Model Instance as an API Response
+
+Started new app: products
+added app in settings
+created simple model Product
+ updated database:
+    python manage.py makemigrations
+    python manage.py migrate
+
+to be continued (48:41)
