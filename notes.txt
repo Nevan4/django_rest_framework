@@ -63,3 +63,10 @@ created simple model Product
     python manage.py migrate
 
 to be continued (48:41)
+
+------------------------------------------------------------
+03.06.2023
+------------------------------------------------------------
+
+Using django python shell:
+
