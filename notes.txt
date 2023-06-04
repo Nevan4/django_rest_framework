@@ -68,5 +68,19 @@ to be continued (48:41)
 03.06.2023
 ------------------------------------------------------------
 
-Using django python shell:
+Using django python shell
+added some models
 
+------------------------------------------------------------
+04.06.2023
+------------------------------------------------------------
+
+In views.py added import:
+from django.forms.models import model_to_dict
+
+Now instead of assigning values from "model_data"
+one by once to every data key
+(i.e. data['title'] = model_data.title)
+we can just use the model_to_dict(model_data) method
+
+finished at 1:00:43
