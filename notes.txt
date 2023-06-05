@@ -83,4 +83,4 @@ one by once to every data key
 (i.e. data['title'] = model_data.title)
 we can just use the model_to_dict(model_data) method
 
-finished at 1:00:43
+finished at 1:04:27
