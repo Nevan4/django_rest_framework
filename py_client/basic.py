@@ -6,12 +6,12 @@ endpoint = "http://localhost:8000/api/" #"http://127.0.0.1:8000/"
 
 get_response = requests.get(endpoint, json={"query": "Hello Dog"}) # HTTP Request
 
-# try:
-#     data = get_response.json()
-#     print(data)
-# except:
-#     print("Error from server: " + str(get_response.content))
+try:
+    data = get_response.json()
+    print(data)
+except:
+    print("Error from server: " + str(get_response.content))
 
 # print("status code: " + str(get_response.status_code))
 
-print(get_response.json())
+# print(get_response.json())

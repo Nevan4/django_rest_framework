@@ -84,3 +84,20 @@ one by once to every data key
 we can just use the model_to_dict(model_data) method
 
 finished at 1:04:27
+
+------------------------------------------------------------
+05.06.2023
+------------------------------------------------------------
+Added in models.py @property sale_price
+and get_discount
+Created serializers.py file in products
+created first ProductSerializer using Meta class and
+Product as a model with all the fields selected one by one
+Changed in basic.py method of getting the response with .json method
+using try: statement again as before
+in views.py changed the "model_data" into "instance" as it better
+handles the serializers usage and used the serializer as below:
+data = ProductSerializer(instance).data
+
+
+finished at 1:09:51
