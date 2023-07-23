@@ -129,4 +129,21 @@ finished at 1:15:14 video on YT, starting the part "injest data "
 Finished at 1:27:04 - starting with Generics RetrieveAPIView
 
 ADD NOTES what have been done:
-short: added post method - describe it and commit changes!
+short: added post method (biggest changes in views, serializers and basic.py)
+
+------------------------------------------------------------
+23.07.2023
+------------------------------------------------------------
+Starting Generics RetrieveAPIView
+
+Add view endpoint in products/views that can show the details of
+the products based on the pk given (item id).
+Use RetrieveAPIView from generics to make a queryset
+
+Add urls.py to handle the new ulr endpoints
+
+In main urls added:
+path('api/products/', include('products.urls')),
+to include the new urls from products category
+
+
