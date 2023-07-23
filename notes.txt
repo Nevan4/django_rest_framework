@@ -146,4 +146,7 @@ In main urls added:
 path('api/products/', include('products.urls')),
 to include the new urls from products category
 
+finished at 1:35:54
+
+
 
