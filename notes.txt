@@ -121,5 +121,12 @@ To get the access to get_discount method from model Product.
 param in ProductSerializer it failed with error because it was
 looking for get_my_discount
 
-finished at 1:15:14 video on YT, starting the part "injest data"
+finished at 1:15:14 video on YT, starting the part "injest data "
 
+------------------------------------------------------------
+12.07.2023
+------------------------------------------------------------
+Finished at 1:27:04 - starting with Generics RetrieveAPIView
+
+ADD NOTES what have been done:
+short: added post method - describe it and commit changes!
