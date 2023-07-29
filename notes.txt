@@ -148,5 +148,31 @@ to include the new urls from products category
 
 finished at 1:35:54
 
+------------------------------------------------------------
+24.07.2023
+------------------------------------------------------------
+Add ProductListCreateAPIView in views.py
+that can handle both Create or List View.
+When a GET request is made to the endpoint from ListCreateAPIView
+it returns objects from the queryset in the view's queryset attribute.
+When a POST request is made it creates a new object using the data provided
+in the request body.
 
+------------------------------------------------------------
+24.07.2023
+------------------------------------------------------------
+
+Started at 1:44:35
+
+finished Using Function Based Views For Create Retrieve or List
+watch again and make some notes.
+Short note: Using Function based views there was created a view
+that can handle create list and detail.
+
+finished at 1:55:17
+
+------------------------------------------------------------
+29.07.2023
+------------------------------------------------------------
+Starting with UpdateAPIView & DestroyAPIView
 
