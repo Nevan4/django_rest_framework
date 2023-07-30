@@ -169,10 +169,21 @@ watch again and make some notes.
 Short note: Using Function based views there was created a view
 that can handle create list and detail.
 
+Function based view can handle multiple scenarios but code is big
+and not sorted so it can be a little bit confusing to put all that
+in one function based view.
+
 finished at 1:55:17
 
 ------------------------------------------------------------
 29.07.2023
 ------------------------------------------------------------
 Starting with UpdateAPIView & DestroyAPIView
+
+Added update and delete (destroy) view to update or deleting
+products.
+update uses request.put
+delete uses request.delete
+
+finished at 2:04:04
 
