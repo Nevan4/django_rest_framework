@@ -187,3 +187,14 @@ delete uses request.delete
 
 finished at 2:04:04
 
+------------------------------------------------------------
+30.07.2023
+------------------------------------------------------------
+Starting with Mixins and Generic API View
+
+Difference between generic views and function based views
+is that here we do not define the conditions for the
+methods, instead we define function for the request method.
+
+finished at 2:14:55 - almost finished topic
+by mixins added list, detail and create (with perform create option)
