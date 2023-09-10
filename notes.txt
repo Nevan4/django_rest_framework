@@ -198,3 +198,15 @@ methods, instead we define function for the request method.
 
 finished at 2:14:55 - almost finished topic
 by mixins added list, detail and create (with perform create option)
+
+------------------------------------------------------------
+10.09.2023
+------------------------------------------------------------
+Session Authentication & Permissions
+
+In ListCreateApiView added
+permission_classes to implement authentication requirement
+then added authentication_classes to handle the authentication possible
+In backend used manage.py createsuperuser with name kacper and p 123
+
+
