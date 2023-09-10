@@ -9,7 +9,8 @@ from products.models import Product
 from products.serializers import ProductSerializer
 
 
-@api_view(["POST"])
+@api_view(["GET"])
+# @api_view(["POST"])
 def api_home(request, *args, **kwargs):
 
     serializer = ProductSerializer(data=request.data)

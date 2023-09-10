@@ -75,11 +75,11 @@ class ProductMixinView(
         print(args, kwargs)
         pk = kwargs.get('pk')
         if pk is not None:
-            return self.retrieve(request, *args, **kwargs)
-        return self.list(request, *args, **kwargs)
+            return self.retrieve(request, *args, **kwargs) #method from mixins
+        return self.list(request, *args, **kwargs) #from mixins
 
     def post(self, request, *args, **kwargs):
-        return self.create(request, *args, **kwargs)
+        return self.create(request, *args, **kwargs) #from mixins
 
     #perform_create is still available in mixins views
     def perform_create(self, serializer):
