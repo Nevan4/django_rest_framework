@@ -204,9 +204,17 @@ by mixins added list, detail and create (with perform create option)
 ------------------------------------------------------------
 Session Authentication & Permissions
 
+changed back urls.py to use previous views (i.e. product_detail_view)
+
 In ListCreateApiView added
 permission_classes to implement authentication requirement
 then added authentication_classes to handle the authentication possible
 In backend used manage.py createsuperuser with name kacper and p 123
 
+------------------------------------------------------------
+17.09.2023
+------------------------------------------------------------
+User & Group Permissions | DjangoModelPermissions
+ finished at 2:30:53
 
+Starting with Custom Permissions
