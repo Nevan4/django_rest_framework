@@ -218,3 +218,23 @@ User & Group Permissions | DjangoModelPermissions
  finished at 2:30:53
 
 Starting with Custom Permissions
+
+------------------------------------------------------------
+12.11.2023
+------------------------------------------------------------
+Custom Permissions
+
+2:45:30 - check again to better understand
+(added perms_map in permissions.py in class IsStaffEditorPermissions to change the
+behavior for GET request.
+
+------------------------------------------------------------
+Next step: to add authentication using token
+-> add frest_framework.authtoken in settings in installed apps
+-> check if new option from admin panel is available: tokens
+-> create an endpoint to generate tokens (backend api urls)
+ |- needed new url path with obtain_auth_token view
+-> to check if tokens work need to simulate the proper response
+ |- in list.py create auth_response post method to send json with username: kacper
+ |- and password
+-> password should be secured with getpass() method (from getpass import getpass)
